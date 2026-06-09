@@ -1,3 +1,6 @@
+# 🧬 Cancer Transcriptomics Project
+
+**Realistic Cancer Data Simulation & Differential Expression Analysis**
 ---
 
 <div align="center">
