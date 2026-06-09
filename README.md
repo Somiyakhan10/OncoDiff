@@ -11,10 +11,7 @@
 </a>
 
 <br>
-<br>
 
-[![Open in Hugging Face](https://img.shields.io/badge/🤗-Open_in_Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 
 </div>
 
