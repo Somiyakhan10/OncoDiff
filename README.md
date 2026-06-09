@@ -1,21 +1,10 @@
 ---
-title: TCGA Cancer Analysis Dashboard
-emoji: 🧬
-colorFrom: red
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.35.0
-app_file: app.py
-pinned: false
----
+
+
 
 # 🧬 TCGA Cancer Analysis Dashboard
 
 **Differential Expression Analysis & PCA Visualization for Breast Cancer (TCGA-BRCA)**
-
-[![Open in Hugging Face](https://img.shields.io/badge/🤗-Launch%20Demo-FFD21E?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)](https://python.org)
 
 <div align="center">
   <a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
