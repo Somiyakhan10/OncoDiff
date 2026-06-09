@@ -1,15 +1,21 @@
----
-
----
-
+<div align="center">
+  
 # 🧬 TCGA Cancer Analysis Dashboard
 
 **Differential Expression Analysis & PCA Visualization for Breast Cancer (TCGA-BRCA)**
 
-<div align="center">
-  <a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_DEMO_-Click_Here-FF5722?style=for-the-badge&logo=huggingface&logoColor=white" alt="Launch Demo" width="250">
-  </a>
+<br>
+
+<a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
+  <img src="https://img.shields.io/badge/🚀_LAUNCH_DEMO_-CLICK_HERE-FF5722?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=333333&color=FF5722" alt="Launch Demo" width="400">
+</a>
+
+<br>
+<br>
+
+[![Open in Hugging Face](https://img.shields.io/badge/🤗-Open_in_Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+
 </div>
 
 ---
@@ -37,19 +43,8 @@ A **Streamlit-based web application** for analyzing TCGA breast cancer (BRCA) RN
 | **Data Export** | Download results as CSV |
 | **Variance Explained** | Bar plot of PC contribution |
 
----
 
-##  Launch Demo
 
-<div align="center">
-  <a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
-    <img src="https://img.shields.io/badge/🔬_LIVE_DEMO_-TRY_NOW-4CAF50?style=for-the-badge&logo=huggingface&logoColor=white" alt="Live Demo" width="300">
-  </a>
-</div>
-
-**Click the badge above or visit:** https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis
-
----
 
 ##  Dashboard Preview
 
@@ -60,7 +55,7 @@ A **Streamlit-based web application** for analyzing TCGA breast cancer (BRCA) RN
 
 *Figure 1: PCA showing separation between tumor (red) and normal (green) samples*
 
----
+
 
 ### Differential Expression Results Table
 
@@ -69,7 +64,7 @@ A **Streamlit-based web application** for analyzing TCGA breast cancer (BRCA) RN
 
 *Figure 2: Top differentially expressed genes with log2FC and adjusted p-values*
 
----
+
 
 ### Heatmap
 
@@ -78,7 +73,7 @@ A **Streamlit-based web application** for analyzing TCGA breast cancer (BRCA) RN
 
 *Figure 3: Heatmap*
 
----
+
 
 ##  Required Data Files
 
@@ -96,7 +91,7 @@ Upload these CSV files to use the dashboard:
 ##  Pipeline Architecture
 <img width="5093" height="468" alt="deepseek_mermaid_20260609_07153a" src="https://github.com/user-attachments/assets/a36617e4-abf4-4024-bb9f-d67f3212d8cc" />
 
----
+
 
 ##  Biological Simulation Design
 
