@@ -1,46 +1,103 @@
-
-
-
 ---
 
+
+#  TCGA Cancer Analysis Dashboard
+
+**Differential Expression Analysis & PCA Visualization for Breast Cancer (TCGA-BRCA)**
+
+[![Open in Hugging Face](https://img.shields.io/badge/🤗-Launch%20Demo-FFD21E?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)](https://python.org)
+
 <div align="center">
-    <h3> Simulating Breast Cancer Transcriptomics Data with Differential Expression Analysis</h3>
-    <p><strong>5,000 Genes | 100 Samples | TCGA-Based Patterns | Volcano Plot + Heatmap Visualization</strong></p>
+  <a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_DEMO_-Click_Here-FF5722?style=for-the-badge&logo=huggingface&logoColor=white" alt="Launch Demo" width="250">
+  </a>
 </div>
 
 ---
 
-
-
 ##  About
 
-This project performs **realistic cancer transcriptomics data simulation** based on TCGA (The Cancer Genome Atlas) breast cancer patterns. It creates a simulated gene expression dataset with **5,000 genes** across **100 samples** (50 tumor, 50 normal), incorporating biologically realistic expression patterns including:
+A **Streamlit-based web application** for analyzing TCGA breast cancer (BRCA) RNA-Seq data. The dashboard performs:
 
--  **Strongly upregulated genes** (potential oncogenes)
--  **Strongly downregulated genes** (tumor suppressors)
--  **Moderately regulated genes** (cancer-associated)
--  **Statistical significance testing** with multiple testing correction
--  **Differential expression analysis** between tumor and normal samples
+- **Differential Expression Analysis** (DESeq2-style)
+- **Principal Component Analysis (PCA)** for sample-level quality control
+- **Volcano Plot** visualization of significant genes
+- **Heatmap** of top differentially expressed genes
+- **Interactive data tables** for result exploration
+
 ---
 
-##  Key Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
-| **Realistic Simulation** | Based on TCGA breast cancer expression patterns |
-| **Sample Size** | 5,000 genes × 100 samples (50 tumor, 50 normal) |
-| **Expression Patterns** | Log-normal distribution with biological fold-changes |
-| **Differential Expression** | t-test with Bonferroni correction |
-| **Visualization** | Volcano plot + Expression heatmap |
-| **Output Format** | PNG images (publication-ready) |
-| **Requirements** | Base R only (no additional packages needed) |
+| **PCA Analysis** | Visualize sample separation between tumor and normal groups |
+| **Differential Expression** | Identify upregulated/downregulated genes (log2FC, padj) |
+| **Volcano Plot** | Interactive visualization of significant genes |
+| **Heatmap** | Expression patterns of top 1000 genes |
+| **Data Export** | Download results as CSV |
+| **Variance Explained** | Bar plot of PC contribution |
+
+---
+
+##  Launch Demo
+
+<div align="center">
+  <a href="https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis">
+    <img src="https://img.shields.io/badge/🔬_LIVE_DEMO_-TRY_NOW-4CAF50?style=for-the-badge&logo=huggingface&logoColor=white" alt="Live Demo" width="300">
+  </a>
+</div>
+
+**Click the badge above or visit:** https://huggingface.co/spaces/somiya-khan01/tcga_dashboard_cancer_analysis
+
+---
+
+##  Dashboard Preview
+
+### PCA Analysis - Tumor vs Normal Separation
+
+<img width="1408" height="775" alt="image" src="https://github.com/user-attachments/assets/799d0260-5072-45bc-9f90-076d9a957e13" />
+
+
+*Figure 1: PCA showing separation between tumor (red) and normal (green) samples*
+
+---
+
+### Differential Expression Results Table
+
+<img width="1395" height="566" alt="image" src="https://github.com/user-attachments/assets/ac3ddbcc-aef8-46d1-8a6f-7f08bd4a9cfb" />
+
+
+*Figure 2: Top differentially expressed genes with log2FC and adjusted p-values*
+
+---
+
+### Heatmap
+
+<img width="1399" height="648" alt="image" src="https://github.com/user-attachments/assets/611fa555-56b9-4a79-a03a-4e75946b121a" />
+
+
+*Figure 3: Heatmap*
+
+---
+
+##  Required Data Files
+
+Upload these CSV files to use the dashboard:
+
+| File | Description |
+|------|-------------|
+| `deseq2_results.csv` | DESeq2 output with log2FC and padj |
+| `counts_top1000.csv` | Normalized counts for top 1000 genes |
+| `sample_fixed.csv` | Sample metadata (tumor/normal labels) |
+
 
 ---
 
 ##  Pipeline Architecture
 <img width="5093" height="468" alt="deepseek_mermaid_20260609_07153a" src="https://github.com/user-attachments/assets/a36617e4-abf4-4024-bb9f-d67f3212d8cc" />
-
-
 
 ---
 
