@@ -1,10 +1,12 @@
+
+<div align="center">
 # 🧬 Cancer Transcriptomics Project
 
-**Realistic Cancer Data Simulation & Differential Expression Analysis**
+
 ---
 
 <div align="center">
-    <h3>🔬 Simulating Breast Cancer Transcriptomics Data with Differential Expression Analysis</h3>
+    <h3> Simulating Breast Cancer Transcriptomics Data with Differential Expression Analysis</h3>
     <p><strong>5,000 Genes | 100 Samples | TCGA-Based Patterns | Volcano Plot + Heatmap Visualization</strong></p>
 </div>
 
