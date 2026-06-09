@@ -1,6 +1,4 @@
 
-<div align="center">
-# 🧬 Cancer Transcriptomics Project
 
 
 ---
@@ -14,7 +12,7 @@
 
 
 
-## 📋 About
+##  About
 
 This project performs **realistic cancer transcriptomics data simulation** based on TCGA (The Cancer Genome Atlas) breast cancer patterns. It creates a simulated gene expression dataset with **5,000 genes** across **100 samples** (50 tumor, 50 normal), incorporating biologically realistic expression patterns including:
 
@@ -25,7 +23,7 @@ This project performs **realistic cancer transcriptomics data simulation** based
 -  **Differential expression analysis** between tumor and normal samples
 ---
 
-## 🎯 Key Features
+##  Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -39,13 +37,14 @@ This project performs **realistic cancer transcriptomics data simulation** based
 
 ---
 
-## 📊 Pipeline Architecture
-<img width="200" height="500" alt="deepseek_mermaid_20260609_64663f" src="https://github.com/user-attachments/assets/87c84033-fc35-4ec2-ab21-6c5b8efbe754" />
+##  Pipeline Architecture
+<img width="5093" height="468" alt="deepseek_mermaid_20260609_07153a" src="https://github.com/user-attachments/assets/a36617e4-abf4-4024-bb9f-d67f3212d8cc" />
+
 
 
 ---
 
-## 🔬 Biological Simulation Design
+##  Biological Simulation Design
 
 ### Expression Patterns by Gene Range
 
@@ -68,7 +67,7 @@ This project performs **realistic cancer transcriptomics data simulation** based
 | **Significance threshold** | p < 0.05 | After Bonferroni correction |
 | **Log2FC threshold** | \|log2FC\| > 1 | Biologically meaningful change |
 
-}
+
 
 
 
