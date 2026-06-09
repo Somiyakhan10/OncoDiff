@@ -36,7 +36,7 @@ This project performs **realistic cancer transcriptomics data simulation** based
 ---
 
 ## 📊 Pipeline Architecture
-<img width="700" height="1500" alt="deepseek_mermaid_20260609_64663f" src="https://github.com/user-attachments/assets/87c84033-fc35-4ec2-ab21-6c5b8efbe754" />
+<img width="200" height="500" alt="deepseek_mermaid_20260609_64663f" src="https://github.com/user-attachments/assets/87c84033-fc35-4ec2-ab21-6c5b8efbe754" />
 
 
 ---
