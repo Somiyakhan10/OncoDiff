@@ -1,7 +1,15 @@
 ---
+title: TCGA Cancer Analysis Dashboard
+emoji: 🧬
+colorFrom: red
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+---
 
-
-#  TCGA Cancer Analysis Dashboard
+# 🧬 TCGA Cancer Analysis Dashboard
 
 **Differential Expression Analysis & PCA Visualization for Breast Cancer (TCGA-BRCA)**
 
